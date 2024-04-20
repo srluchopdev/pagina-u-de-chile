@@ -1,10 +1,14 @@
 /*estilos y posiciones del menu desplegable*/
 .header{
+    position: absolute;
+    top: 0px;
+    left: 0%;
     margin: auto;
-    background-color: beige;
+    background-color: rgb(202, 202, 202);
     width:  100%;
-    height: 50%;
+    height: 15%;
     font-family: "Roboto", sans-serif;
+    border-color: black;
 }
 
 ul, ol{
@@ -17,6 +21,7 @@ ul, ol{
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+    border-radius: 2%;
 }
 
 .nav li a:hover{
@@ -43,5 +48,46 @@ li{
 
 /*estilos y posicionamiento de menu y logo*/
 .logo{
-    
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    width: 15%;
+    height: 65%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    width: 60% ;
+}
+/*imagen de fondo*/
+.fon{
+    left: 0%;
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+}
+
+.ibk{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+
+.ibk p{
+    position: absolute;
+    top: 35%; /* Ajustar la posición vertical */
+    left: 25%; /* Ajustar la posición horizontal */
+    font-size: 40px;
+}
+
+p{
+    text-transform: uppercase;   
 }
