@@ -1,0 +1,15 @@
+.nacional{
+    background-color: black;
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+.nacional h1{
+    margin: 10px 20px;
+    color: aqua;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}

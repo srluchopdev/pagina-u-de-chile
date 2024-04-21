@@ -110,7 +110,7 @@ p{
 }
 
 .ttn{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     text-transform: uppercase;
     width: 100%;
@@ -155,7 +155,7 @@ p{
 
 .tt{
     display: flex;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     text-transform: uppercase;
     width: 100%;
@@ -163,7 +163,7 @@ p{
 }
 
 .tt p{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin: 35px 10px;
 }
 
@@ -211,7 +211,7 @@ p{
 }
 
 .ttp{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     text-transform: uppercase;
     width: 100%;
@@ -231,19 +231,6 @@ p{
     width: 100%;
 }
 
-.textonoti{
-    background-color: rgb(255, 0, 0);
-    width: 70%;
-    height: 20%;
-    color: aliceblue;
-}
-
-.textonoti  p{
-    font-size: 16px;
-    text-align: center;
-    width: 100%;
-}
-
 /*estilos y posicionamiento de proyectos*/
 .proyectos{
     display: flex; /* Activar flexbox */
@@ -260,7 +247,7 @@ p{
 }
 
 .tty{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     text-transform: uppercase;
     width: 100%;
