@@ -101,7 +101,7 @@ p{
     flex-wrap: wrap; /* Permitir que los elementos salten a la siguiente línea si es necesario */
     justify-content: space-around; /* Distribuir elementos uniformemente con espacio entre ellos */
     align-items: center; /* Alinear elementos verticalmente en el centro */
-    background-color: black;
+    background-color: rgba(175, 175, 175, 0.445);
     position: absolute;
     top: 80%;
     left: 0%;
@@ -109,7 +109,17 @@ p{
     height: 100%;
 }
 
+.ttn{
+    color: aliceblue;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 5%;
+}
+
 .not1{
+    border-color: black;
+    border-radius: 1%;
     margin: 5px 5px;
     background-color: azure;
     width: 20%;
@@ -135,12 +145,12 @@ p{
 
 /*estilos y posicionamientos de equipo*/
 .equipo{
-    background-color: black;
+    background-color: rgba(175, 175, 175, 0.445);
     position: absolute;
     top: 185%;
     left: 0%;
     width: 100%;
-    height: 60%;   
+    height: 50%;   
 }
 
 .tt{
@@ -148,6 +158,8 @@ p{
     color: aliceblue;
     margin-left: 20px;
     text-transform: uppercase;
+    width: 100%;
+    height: 20%;
 }
 
 .tt p{
@@ -157,19 +169,19 @@ p{
 
 .e{
     display: flex;
-    background-color: black;
+    /*background-color: rgba(175, 175, 175, 0.445);*/
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 0%;
     width: 100%;
-    height: 60%;
+    height: 70%;
 }
 
 .e1{
-    margin: 45px 35px;
-    background-color: azure;
+    margin: 0px 35px;
+    /*background-color: rgba(175, 175, 175, 0.445);*/
     width: 20%;
-    height: 120%;
+    height: 100%;
 }
 
 .e1 p{
@@ -177,7 +189,98 @@ p{
 }
 
 .iq{
-    width: 100%;
+    margin: 0% 5%;
+    width: 90%;
     height: 75%;
     border-radius: 140%;
+}
+
+/*estilos y posicionamientos publicaciones*/
+.publicaciones{
+    display: flex; /* Activar flexbox */
+    flex-direction: row; /* Disponer elementos en fila */
+    flex-wrap: wrap; /* Permitir que los elementos salten a la siguiente línea si es necesario */
+    justify-content: space-around; /* Distribuir elementos uniformemente con espacio entre ellos */
+    align-items: center; /* Alinear elementos verticalmente en el centro */
+    background-color: rgba(175, 175, 175, 0.445);
+    position: absolute;
+    top: 240%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.ttp{
+    color: aliceblue;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 5%;
+}
+
+.pub1{
+    border-color: black;
+    border-radius: 1%;
+    margin: 5px 5px;
+    background-color: azure;
+    width: 20%;
+    height: 35%;
+}
+
+.ipub{
+    width: 100%;
+}
+
+.textonoti{
+    background-color: rgb(255, 0, 0);
+    width: 70%;
+    height: 20%;
+    color: aliceblue;
+}
+
+.textonoti  p{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+/*estilos y posicionamiento de proyectos*/
+.proyectos{
+    display: flex; /* Activar flexbox */
+    flex-direction: row; /* Disponer elementos en fila */
+    flex-wrap: wrap; /* Permitir que los elementos salten a la siguiente línea si es necesario */
+    justify-content: space-around; /* Distribuir elementos uniformemente con espacio entre ellos */
+    align-items: center; /* Alinear elementos verticalmente en el centro */
+    background-color: rgba(175, 175, 175, 0.445);
+    position: absolute;
+    top: 345%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+.tty{
+    color: aliceblue;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 5%;
+}
+
+.pro1{
+    border-color: black;
+    border-radius: 1%;
+    margin: 5px 5px;
+    background-color: azure;
+    width: 10%;
+    height: 60%;
+}
+
+.pro1 P{
+    text-align: center;
+}
+
+.ipro{
+    width: 100%;
+    height: 60%;
 }
